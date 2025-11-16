@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    color: #fff;
+    display: flex;               /* Ajout de Flexbox */
+    justify-content: center;     /* Centre horizontalement */
+    align-items: center;         /* Centre verticalement */
+    height: 100vh; 
+}
+.container{
+    width: 575px;
+    margin: 0 auto;
+    background:#1B244A;
+}
+.container-scoreboard{
+    display: flex;
+    justify-content: space-around;
+    width: 375px;
+    margin: 50px auto;  
+}
+.title-scoreboard{
+    font-size: 40px;
+    text-align: center;
+}
+
+.screen-score{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+   
+#home-points, #guest-points{
+    margin: 0;                /* supprime marge par défaut */
+    height: 100%;             /* occupe toute la hauteur du conteneur */
+    text-align: center;     /* centre le texte horizontalement */
+    line-height: 135px;      /* centre le texte verticalement */
+    font-size: 90px;          /* taille de la police */
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.add-points{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 26px;
+}
+.btn-points{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.btn-reset{
+    display: block;
+    width: 30%;
+    margin: 50px auto;
+    background: #080001;
+    border: none;
+    padding: 12px 24px;
+    color: #9AABD8;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
